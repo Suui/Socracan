@@ -1,0 +1,10 @@
+{
+  "name": "socracan-2017",
+  "author": "Socracan Team",
+  "description": "The website for the upcoming Socrates Canaries 2017 event",
+  "_aerobatic": {
+    "build": {
+      "engine": "jekyll"
+    }
+  }
+}

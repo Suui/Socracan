@@ -1,0 +1,15 @@
+title: Socracan 2017
+email: socracan@gmail.com
+description: Socrates Canaries 2017
+
+environment: production
+url: https://socrates-conference.es
+
+markdown: kramdown
+
+exclude:
+  - "/vendor/"
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+  - "/node_modules/"
