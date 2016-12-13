@@ -2,7 +2,7 @@
     position: relative;
     top: 0;
     left: 0;
-    background-image: url("../img/venue.jpg"); 
+    background-image: url("../img/venue.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -43,12 +43,12 @@
     padding: 50px 0;
 }
 
-#about .title {
+#about .title, #venue .title, #registration .title, #payment .title, #schedule .title, #organisers .title {
     font-size: 2.5em;
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
 }
 
 #about .caption {
@@ -63,4 +63,21 @@
     font-size: 1em;
     letter-spacing: 0.02em;
     text-align: justify;
+}
+
+#venue, #registration, #payment, #schedule, #organisers {
+  padding: 35px 0;
+}
+
+#venue img {
+  width: 100%;
+  margin: 3px 0;
+}
+
+.coming-soon {
+  font-size: 1.3em;
+}
+
+#organisers img {
+  height: 150px;
 }
