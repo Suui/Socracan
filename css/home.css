@@ -15,7 +15,7 @@
 
 #introduction:after {
     content: '';
-    background: linear-gradient(rgba(17, 17, 17, 0.3), rgba(17, 17, 17, 0.5));
+    background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.7));
     position: absolute;
     top: 0;
     left: 0;
@@ -37,7 +37,7 @@
     padding-top: 30px;
 }
 
-#about {
+#about, #venue, #registration, #payment, #schedule, #organisers {
     text-align: center;
     color: #111;
     padding: 50px 0;
@@ -56,7 +56,7 @@
     letter-spacing: 0.05em;
     font-weight: 600;
     text-transform: uppercase;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 #about p {
@@ -65,19 +65,32 @@
     text-align: justify;
 }
 
-#venue, #registration, #payment, #schedule, #organisers {
-  padding: 35px 0;
+#venue {
+    background-color: #111;
+    color: #eee;
+}
+
+#venue p {
+    font-size: 1.2em;
+    letter-spacing: 0.02em;
+    padding-bottom: 15px;
 }
 
 #venue img {
-  width: 100%;
-  margin: 3px 0;
+    width: 100%;
+    margin: 3px 0;
 }
 
-.coming-soon {
-  font-size: 1.3em;
+#venue {
+    background-color: #111;
+    color: #eee;
+}
+
+#registration p {
+    font-size: 1.2em;
+    letter-spacing: 0.02em;
 }
 
 #organisers img {
-  height: 150px;
+    height: 150px;
 }
