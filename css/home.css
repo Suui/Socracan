@@ -98,3 +98,11 @@
 #organization img {
     height: 120px;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    #about p {
+        padding-bottom: 20px;
+    }
+}
