@@ -93,10 +93,48 @@
 
 #organization {
     text-align: center;
+    background-color: #111;
+    color: #eee;
 }
 
 #organization img {
     height: 120px;
+}
+
+#organization .logo {
+    text-align: right;
+}
+
+#organization .contact {
+    text-align: left;
+}
+
+#organization .contact .caption {
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding-bottom: 25px;
+}
+
+#organization .email {
+    padding-bottom: 10px;
+}
+
+#organization a {
+    font-size: 1.2em;
+    letter-spacing: 0.04em;
+    color: #ffcd05;
+}
+
+#organization a:hover {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #0669aa;
+}
+
+#organization a:active {
+    text-decoration: none;
+    color: #ffcd05;
 }
 
 

@@ -36,15 +36,16 @@ header .navbar-default .navbar-nav li a {
     font-size: 1.01em;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #eee;
+    color: #ffcd05;
 }
 
 header .navbar-default .navbar-nav li a:visited {
-    color: #eee;
+    color: #ffcd05;
 }
 
 header .navbar-default .navbar-nav li a:hover {
-    color: #fbce49;
+    transition: color 0.3s ease;
+    color: #0669aa;
 }
 
 font header .navbar-default .navbar-nav li a:hover {
