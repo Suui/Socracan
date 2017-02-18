@@ -87,7 +87,8 @@
 }
 
 #registration {
-    padding-top: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
     text-align: justify;
 }
 
@@ -96,8 +97,59 @@
     color: #111;
 }
 
+#registration .alert {
+    text-align: center;
+    font-size: 1.4em;
+    letter-spacing: 0.04em;
+    color: #e02f2f;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+#registration .notice {
+    font-size: 1.3em;
+    letter-spacing: 0.04em;
+    padding: 10px;
+    background-color: #ffcd05;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#registration .notice-subhead {
+    font-size: 1.3em;
+    letter-spacing: 0.04em;
+    margin-bottom: 30px;
+}
+
+#registration .reservation {
+    text-align: center;
+    font-size: 1.3em;
+    letter-spacing: 0.04em;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: #337ab7;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#registration .reservation:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+#registration .reservation a {
+    color: #000;
+    transition: box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+#registration .reservation:hover a {
+    text-decoration: underline;
+}
+
 #registration .details {
-    padding-bottom: 20px;
     font-size: 1.2em;
     letter-spacing: 0.02em;
 }
