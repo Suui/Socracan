@@ -5,7 +5,7 @@
     background-image: url("../img/venue.jpg");
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: local;
 
     text-align: center;
     color: #eee;
@@ -131,7 +131,7 @@
 #registration .reservation-subhead {
     font-size: 1.2em;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: justify;
 }
 
 #registration .reservation {
