@@ -1,18 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include default-head.html %}
-        
-        <link rel="stylesheet" href="/css/home.css">
-
-        <title>Socracan 2018</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="International Software and Testing Un-Conference focused on the creation of useful software in a responsible way.">
+      <link rel="icon" type="image/png" href="/favicon.png">
+      <link rel="stylesheet" href="/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/css/ionicons.min.css">
+      <link rel="stylesheet" href="/css/global.css">
+      <link rel="stylesheet" href="/css/home.css">
+      <title>Socracan 2018</title>
     </head>
-
     <body>
+      <header>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <nav class="navbar navbar-default">
+                          <div class="container-fluid">
+                              <div class="navbar-header">
+                                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                      <span class="sr-only">Toggle navigation</span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                  </button>
+                                  <a class="navbar-brand" href="{{ site.baseurl }}">
+                                      <img src="/img/logo.svg" alt="Logo">
+                                  </a>
+                              </div>
 
-        {% include header.html %}
+                              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                  <ul class="nav navbar-nav navbar-right">
+                                      <li><a href="#about">About</a></li>
+                                      <li><a href="#venue">Venue</a></li>
+                                      <li><a href="#schedule">Schedule</a></li>
+                                      <li><a href="#registration">Registration</a></li>
+                                      <li><a href="#sponsorship">Sponsorship</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </nav>
+                  </div>
+              </div>
+          </div>
+      </header>
+      <section id="introduction">
+      	<div class="container">
+      		<div class="row">
+      			<div class="col-md-12">
+      				<div class="title">SoCraTes Canaries 2018</div>
+      			</div>
+      		</div>
 
-        {{ content }}
-        
-    </body>
+      		<div class="row">
+      			<div class="col-md-12">
+      		<div class="subtitle">Software Crafters and Testing Conference</div>
+      			</div>
+      		</div>
+
+      		<div class="row">
+      			<div class="col-md-12">
+      				<div class="dates">April 12-15th, 2018</div>
+      			</div>
+      		</div>
+
+      		</div>
+      	</div>
+      </section>
+      <section id="about">
+      	<div class="container">
+      		<div class="row">
+      			<div class="title">What is Socrates?</div>
+      			<div class="col-md-4">
+      				<div class="caption">It's about People</div>
+      				<p>There is no agenda and there are no speakers before the event starts. Proposals are presented during the event itself in the mornings, and voted by the participants right after. It’s a great opportunity to speak to and code with many like-minded and talented developers in an incredible venue by the beach.</p>
+      			</div>
+      			<div class="col-md-4">
+      				<div class="caption">It's about Action</div>
+      				<p>The retreat itself is free. The only thing you pay for is the hotel, meals and meeting rooms. We will be there for 48 hours to collaborate and share ideas. There will be hands-on coding sessions, sessions focused on discussion, interactive talks and lots more.</p>
+      			</div>
+      			<div class="col-md-4">
+      				<div class="caption">It's about Fun</div>
+      				<p>We will not only spend the days together but also the nights. And – believe it or not – programmers are a great company! There will be lots of opportunities to spend your time. Starting with simple chilling over hiking and biking, playing games, hanging around, talking, laughing…</p>
+      			</div>
+      		</div>
+      	</div>
+    	</section>
+
+    	<section id="venue">
+      	<div class="container">
+      		<div class="title">Venue</div>
+      		<p>This year, once again, the conference rooms will be located in the <a href="https://www.google.es/maps/place/Hotel+NH+Imperial+Playa/@28.1486463,-15.4314489,18z/data=!4m21!1m15!4m14!1m6!1m2!1s0xc4095380b4e84f5:0x19c7dad290fed192!2sHotel+NH+Las+Palmas+Playa+Las+Canteras,+Calle+Prudencio+Morales,+41,+35009+Las+Palmas+de+Gran+Canaria,+Las+Palmas!2m2!1d-15.4306974!2d28.1490267!1m6!1m2!1s0x0:0x9dbca812ce57c97b!2sHotel+NH+Imperial+Playa!2m2!1d-15.430758!2d28.148439!3m4!1s0xc4095387ae51e8d:0x9dbca812ce57c97b!8m2!3d28.148439!4d-15.430758" target="_blank">NH Imperial Playa</a>, near the beach. You can stay there or at the <a href="https://www.google.es/maps/place/Hotel+NH+Las+Palmas+Playa+Las+Canteras/@28.1486463,-15.4314489,18z/data=!4m5!3m4!1s0x0:0x19c7dad290fed192!8m2!3d28.1490267!4d-15.4306975" target="_blank">NH Playa Las Canteras hotel</a> located at a 3min walk from the first one.</p>
+      		<p>We are again welcoming <b>Adrián Perreau</b> as the facilitator</p>
+      		<div class="row">
+      			<div class="col-md-12">
+      				<img class="img-thumbnail" src="/img/venue/1.jpg" alt="Venue">
+      			</div>
+      			<div class="col-md-6">
+      				<img class="img-thumbnail" src="/img/venue/2.jpg" alt="Venue">
+      			</div>
+      			<div class="col-md-6">
+      				<img class="img-thumbnail" src="/img/venue/3.jpg" alt="Venue">
+      			</div>
+      			<div class="col-md-12">
+      				<img class="img-thumbnail" src="/img/venue/4.jpg" alt="Venue">
+      			</div>
+      		</div>
+          <div class="title">Arriving at the venue</div>
+          <p>You can get there from the <a href="https://www.google.es/maps/place/Aeropuerto+de+Gran+Canaria+(LPA)/@27.9332227,-15.3886078,15z/data=!4m5!3m4!1s0x0:0x824bcf7e159f85d4!8m2!3d27.9331848!4d-15.3877066" target="_blank">Gran Canaria airport</a> by bus, taking <a href="http://www.globalsu.net/lineas/linea60.pdf" target="_blank">route 60 to Santa Catalina</a> (around 3€, the grey hours correspond to direct routes) and walk 15 minutes by the beach or take a cab (around 35-45€ depending on hours). If you want to go sightseeing, you may consider renting a car since the public transportation in the city may not be as great as you would expect.</p>
+      	</div>
+        <iframe
+            width="100%"
+          height="450"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDBYvMbWlGsZ41-GVw2teYlkQ2_IZAfELI&q=NH+Imperial+Playa,LPA" allowfullscreen>
+        </iframe>
+      </section>
+
+      <section id="registration">
+        <div class="container">
+          <div class="row">
+            <div class="title">Registration &amp; Payment</div>
+            <div class="alert"><b>Registration is open!</b></div>
+            <div class="col-md-12">
+              <p class="notice"><a href="https://www.ticketea.com/entradas-conferencia-socrates-canaries-2018/">Buy your tickets here!</a> Remember stay expenses are not included!</p>
+            </div>
+
+            <div class="col-md-12">
+              <p class="reservation-head"><b>Make a reservation at the hotel!</b></p>
+              <p class="reservation-subhead">We are preparing the registration in the hotel with the web they facilitated us last year. Anyway you can look in any service to book a place in Las Canteras or near the hotel. For more information about the rooms keep on track our Twitter account, they will be available soon enough.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sponsorship">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="title">Sponsorship</div>
+              <div id="ticketea-logo" class="logo"></div>
+      				<div id="aida-logo" class="logo"></div>
+      				<div id="codurance-logo" class="logo"></div>
+      				<div id="eight-light-logo" class="logo"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="organization">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="title">Organisers</div>
+              <div id="codesai-logo" class="logo"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="logo">
+                <img src="/img/logo.svg" alt="Socracan (SoCraTes Canaries)">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="contact">
+                <div class="caption">Any questions? Contact us!</div>
+                <div class="links">
+                  <div class="email">
+                    <script type="text/javascript">// <![CDATA[
+                      var a='socracan', b='gmail', c='.com'; document.write('<a hre'+'f="mai'+'lto:' + a +'@' + b + c + '">'); document.write(a +'@' + b+c+'</a>');
+                      // ]]&gt;</script>
+                  </div>
+                  <div class="twitter">
+                    <a href="https://twitter.com/socracan">@socracan</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
 </html>

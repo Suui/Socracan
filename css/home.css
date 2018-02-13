@@ -68,7 +68,7 @@
   margin: 36px 0;
 }
 
-#sponsorship .logo {
+#sponsorship .logo, #organization .logo {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
