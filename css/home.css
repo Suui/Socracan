@@ -64,41 +64,45 @@
     text-align: justify;
 }
 
-#sponsorship .col-xs-12 > * {
-  margin: 36px 0;
-}
-
 #sponsorship .logo, #organization .logo {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
-  width: 100%;
-  height: 0;
+}
+
+#sponsorship .logo {
+  margin: 36px;
 }
 
 #ticketea-logo {
   background-image:url(../img/sponsors/ticketea.png);
-  padding-top: 16%;
+  width: 400px;
+  height: 180px;
 }
 
 #aida-logo {
   background-image:url(../img/sponsors/LOGO_AIDA.png);
-  padding-top: 16%;
+  width: 400px;
+  height: 180px;
 }
 
 #codurance-logo {
   background-image:url(../img/sponsors/codurance-logo.svg);
-  padding-top: 8%;
+  width: 420px;
+  height: 90px;
 }
 
 #eight-light-logo {
   background-image:url(../img/sponsors/8th-Light-Logo.png);
-  padding-top: 32%;
+  width: 400px;
+  height: 180px;
 }
 
 #codesai-logo {
   background-image:url(../img/codesai.png);
-  padding-top: 32%;
+  width: 650px;
+  height: 280px;
+  margin: 0 auto;
 }
 
 #venue {
@@ -331,12 +335,8 @@
         text-align: center;
     }
 
-    #ticketea-logo, #aida-logo, #codurance-logo, #codesai-logo {
-      padding-top: 43%;
-    }
-
-    #eight-light-logo {
-      padding-top: 75%;
+    #sponsorship .logo {
+      margin: 12px;
     }
 }
 
