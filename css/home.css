@@ -98,6 +98,12 @@
   height: 180px;
 }
 
+#kairos-logo {
+  background-image:url(../img/sponsors/kairos_ds_DevOps_logo.png);
+  width: 420px;
+  height: 90px;
+}
+
 #codesai-logo {
   background-image:url(../img/codesai.png);
   width: 650px;
