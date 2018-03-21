@@ -110,6 +110,12 @@
   height: 120px;
 }
 
+#zooplus-logo {
+  background-image:url(../img/sponsors/zooplus.png);
+  width: 500px;
+  height: 120px;
+}
+
 #codesai-logo {
   background-image:url(../img/codesai.png);
   width: 650px;
@@ -318,6 +324,6 @@
 
     #sponsorship .logo, #organization .logo {
       width: 100%;
-      margin: 0 auto;
+      margin: 12px auto;
     }
 }
