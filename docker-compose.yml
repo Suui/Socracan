@@ -1,9 +1,9 @@
-version: '2'
+version: '3.4'
 services:
-    web:
-        image: jekyll/jekyll:2.4
-        command: jekyll serve --force_polling --config=_config.yml,_local_config.yml
-        ports:
-            - "4000:4000"
-        volumes:
-            - .:/srv/jekyll
+  web:
+    image: python:3.7.1-alpine3.8
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/tmp
+    command: ["python", "-m", "http.server", "--directory", "tmp"]
