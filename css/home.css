@@ -36,13 +36,13 @@
     padding-top: 30px;
 }
 
-#about, #venue, #registration, #payment, #schedule, #organization, #sponsorship {
+#about, #venue, #registration, #payment, #schedule, #organization {
     text-align: center;
     color: #111;
     padding: 50px 0;
 }
 
-#about .title, #venue .title, #registration .title, #payment .title, #schedule .title, #organization .title, #sponsorship .title {
+#about .title, #venue .title, #registration .title, #payment .title, #schedule .title, #organization .title {
     font-size: 2.5em;
     font-weight: 600;
     letter-spacing: 0.1em;
@@ -58,68 +58,16 @@
     padding-bottom: 15px;
 }
 
-#about p, #sponsorship p, #sponsorship li {
+#about p {
     font-size: 1.2em;
     letter-spacing: 0.02em;
     text-align: justify;
 }
 
-#sponsorship .logo, #organization .logo {
+#organization .logo {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
-}
-
-#sponsorship .logo {
-  margin: 36px;
-}
-
-#ticketea-logo {
-  background-image:url(../img/sponsors/ticketea.png);
-  width: 400px;
-  height: 180px;
-}
-
-#aida-logo {
-  background-image:url(../img/sponsors/LOGO_AIDA.png);
-  width: 400px;
-  height: 180px;
-}
-
-#codurance-logo {
-  background-image:url(../img/sponsors/codurance-logo.svg);
-  width: 420px;
-  height: 90px;
-}
-
-#eight-light-logo {
-  background-image:url(../img/sponsors/8th-Light-Logo.png);
-  width: 400px;
-  height: 180px;
-}
-
-#kairos-logo {
-  background-image:url(../img/sponsors/kairos_ds_DevOps_logo.png);
-  width: 420px;
-  height: 90px;
-}
-
-#lean-mind-logo {
-  background-image:url(../img/sponsors/LeanMind.png);
-  width: 250px;
-  height: 180px;
-}
-
-#zooplus-logo {
-  background-image:url(../img/sponsors/zooplus.png);
-  width: 500px;
-  height: 120px;
-}
-
-#zooplus-logo {
-  background-image:url(../img/sponsors/zooplus.png);
-  width: 500px;
-  height: 120px;
 }
 
 #codesai-logo {
