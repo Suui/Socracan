@@ -91,7 +91,7 @@ header:not(.expanded) .list-header {
 }
 
 .introduction {
-  background-image: url(/images/portada.png);
+  background-image: url(/images/portada.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
