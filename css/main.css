@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.4s ease;
+  color: #ffcd05;
+  font-size: 16px;
+}
+
+a:hover{
+  color: #337ab7;
+  cursor: pointer;
+}
+
+b {
+  color: #337ab7;
+}
+
+section {
+  padding: 25px;
+}
+
+section > h2 {
+  font-size: 24px;
+  padding: 20px;
+}
+
+header {
+  height: 76px;
+  width: 100%;
+  padding: 10px 27px;
+  background-color: #111;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.5s height;
+}
+
+header.expanded {
+  height: 195px;
+  transition: 0.5s height;
+}
+
+header.expanded .logo-container {
+  border-color: #797979;
+}
+
+header:not(.expanded) .list-header {
+  display: none;
+}
+
+#toggle {
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  border-color: #ffffff;
+  background-color: #111;
+  background-image: url(/images/hamburger-icon.png);
+  background-size: contain;
+}
+
+.list-header{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.items-header{
+  padding: 9px 20px;
+}
+
+.logo{
+  height: 45px;
+  width: 45px;
+}
+
+.logo-container {
+  height: 56px;
+  border-bottom: 1px solid #111;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.introduction {
+  background-image: url(/images/portada.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-start;
+}
+
+.introduction h1 {
+  font-size: 36px;
+}
+
+.title-introduction {
+  padding: 19px 0 0 25px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.9);
+}
+
+.text-intro{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+}
+
+.text-intro > h2 {
+  font-size: 30px;
+}
+
+.text-intro > h3 {
+  font-size: 24px;
+}
+
+#about {
+  background-image: url(/images/image-about-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+}
+
+.list-about{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.about-items{
+  padding: 20px;
+}
+
+.title-items{
+  padding-bottom: 16px;
+}
+
+#schedule {
+  text-align: center;
+  color: #111;
+  margin: 0 auto;
+  background-color: #eeeeee;
+  margin: 0 auto;
+}
+
+#schedule > ul {
+  padding: 0 30px 30px 30px;
+}
+
+.schedule-item{
+  position: relative;
+  display: block;
+  padding: 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.photo{
+  background-image: url(/images/foto4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+}
+
+#venue {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: #111;
+  text-align: center;
+}
+
+#venue > p {
+  margin-bottom: 18px;
+}
+
+.images-venue{
+  width: 90%;
+  padding: 10px;
+}
+
+.images-venue-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tickets {
+  background-color: #222324;
+  color: #ffffff;
+}
+
+.localitation-container{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.box-localitation{
+  padding-bottom: 32px;
+}
+
+.title-localitation1{
+  color: #111;
+}
+
+.title-localitation2{
+  color: #8c8c8c;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+footer{
+  background-color: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+footer > div:not(:first-child) {
+  padding-top: 32px;
+}
+
+.titles-footer{
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.logo-codesai {
+  width: 100px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.facilitator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facilitator a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facilitator img {
+  width: 80px;
+  border-radius: 100%;
+  margin: 12px auto;
+}
+
+.contact-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact a {
+  padding-left: 7px;
+}
+
+.contact > div {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+}
+
+@media all and (min-width: 768px) {
+  header{
+    height: 76px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  section > h2 {
+    font-size: 30px;
+    padding: 20px 0;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  header .list-header {
+    border: none;
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .items-header{
+    padding: 0 20px;
+  }
+
+  .introduction {
+    height: 90vh;
+  }
+
+  .title-introduction{
+    padding: 30px;
+  }
+
+  #about {
+    background-image: url(/images/image-section-about.png);
+    background-repeat: no-repeat;
+  }
+
+  .list-about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .images-venue{
+    width: 40%;
+    height: 290px;
+  }
+
+  .images-venue-container{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .localitation-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .box-localitation {
+    padding-right: 55px;
+  }
+
+  iframe{
+    width: 500px;
+    height: 250px;
+    border: 0;
+  }
+
+  footer{
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 33px;
+  }
+
+  footer > div:not(:first-child) {
+    padding-top: 0;
+  }
+
+  .contact{
+    padding-top: 0px;
+  }
+}
