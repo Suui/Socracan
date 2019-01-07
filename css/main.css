@@ -59,11 +59,14 @@ header:not(.expanded) .list-header {
   display: block;
   height: 30px;
   width: 30px;
+}
+
+#toggle > div {
+  width: 35px;
+  height: 5px;
   border-radius: 5px;
-  border-color: #ffffff;
-  background-color: #111;
-  background-image: url(/images/hamburger-icon.png);
-  background-size: contain;
+  background-color: #fff;
+  margin: 6px 0;
 }
 
 .list-header{
