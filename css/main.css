@@ -43,7 +43,7 @@ header {
 }
 
 header.expanded {
-  height: 195px;
+  height: 215px;
   transition: 0.5s height;
 }
 
@@ -74,6 +74,7 @@ header:not(.expanded) .list-header {
 
 .items-header{
   padding: 9px 20px;
+  text-transform: uppercase;
 }
 
 .logo{
@@ -226,6 +227,15 @@ header:not(.expanded) .list-header {
   color: #8c8c8c;
   padding-left: 30px;
   padding-bottom: 15px;
+}
+
+#coc blockquote {
+  background-color: #eee;
+  padding: 18px;
+  text-align: justify;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  margin: 12px 0;
 }
 
 footer{
