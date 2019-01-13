@@ -1,5 +1,5 @@
 document.addEventListener('scroll', function(e) {
-  var looksGoodDistance = 200;
+  var looksGoodDistance = document.querySelector('.opacity-layer').offsetHeight / 2;
   var shouldBeOpaque = window.pageYOffset > document.querySelector('.opacity-layer').offsetHeight - looksGoodDistance;
   if (shouldBeOpaque) {
     document.querySelector('header').style.background = 'rgba(0, 25, 50, 0.75)';

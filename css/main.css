@@ -79,27 +79,11 @@ header:not(.expanded) .list-header {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.logo{
-  height: 45px;
-  width: 45px;
-}
-
-.logo-container {
-  height: 56px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .introduction {
+  height: 100vh;
   background: url(/images/portada.png) no-repeat;
   background-size: cover;
   background-position: fixed;
-  height: 65vh;
-  width: 100%;
-  color: #ffffff;
-  display: flex;
-  align-items: flex-start;
 }
 
 .introduction .opacity-layer {
@@ -108,13 +92,40 @@ header:not(.expanded) .list-header {
   height: 100%;
 }
 
-.introduction h1 {
-  font-size: 36px;
+.introduction .presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding-left: 200px;
+  padding-bottom: 100px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
-.title-introduction {
-  padding: 19px 0 0 25px;
-  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.9);
+.introduction .presentation .event-name {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.introduction .presentation .title {
+  display: flex;
+  align-items: center;
+}
+
+.introduction .presentation .title .logo {
+  width: 125px;
+  margin-left: 26px;
+  margin-right: 30px;
+}
+
+.introduction .presentation .title .subtitle {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.introduction .presentation .title .dates {
+  font-size: 50px;
 }
 
 .text-intro{
@@ -337,10 +348,6 @@ footer > div:not(:first-child) {
 
   .items-header{
     padding: 0 20px;
-  }
-
-  .introduction {
-    height: 100vh;
   }
 
   .title-introduction{
