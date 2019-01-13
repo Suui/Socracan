@@ -1,3 +1,13 @@
+document.addEventListener('scroll', function(e) {
+  var looksGoodDistance = 200;
+  var shouldBeOpaque = window.pageYOffset > document.querySelector('.opacity-layer').offsetHeight - looksGoodDistance;
+  if (shouldBeOpaque) {
+    document.querySelector('header').style.background = 'rgba(0, 25, 50, 0.75)';
+  } else {
+    document.querySelector('header').style.background = 'rgba(0, 25, 50, 0)';
+  }
+})
+
 (function(header) {
   'use strict';
   document.getElementById('toggle').addEventListener('click', (e) => {
