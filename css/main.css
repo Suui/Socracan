@@ -182,7 +182,6 @@ header:not(.expanded) .list-header {
 }
 
 .schedule-item{
-  position: relative;
   display: block;
   padding: 15px;
   margin-bottom: -1px;
