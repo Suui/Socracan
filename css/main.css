@@ -359,6 +359,23 @@ footer > div:not(:first-child) {
     display: none;
   }
 
+  .mobile-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 25, 50, 0.9);
+    color: white;
+    font-size: 24px;
+  }
+
+  .mobile-menu .item {
+    padding: 10px 30px;
+  }
+
   .introduction .presentation {
     justify-content: flex-start;
     align-items: center;
@@ -407,6 +424,10 @@ footer > div:not(:first-child) {
     align-items: center;
     padding-left: 60px;
     transition: background 0.4s ease;
+  }
+
+  .mobile-menu {
+    display: none;
   }
 
   section > h2 {
