@@ -9,9 +9,9 @@ document.addEventListener('scroll', function(e) {
 });
 
 document.getElementById('switch-icons').addEventListener('click', function(e) {
-  document.querySelector('.mobile-menu-left').classList.remove('toggled');
   document.querySelector('.mobile-menu-right').classList.remove('toggled');
-  
+  document.querySelector('.mobile-menu-left').classList.remove('toggled');
+
   var menu = document.querySelector('.mobile-menu');
   if (menu.classList.contains('left-handed')) {
     menu.classList.remove('left-handed');
@@ -30,8 +30,9 @@ document.getElementById('toggle-menu').addEventListener('click', function(e) {
   rightMenu.classList.add('toggled');
 });
 
-document.querySelectorAll('.mobile-menu-right a').forEach(function(item) {
+document.querySelectorAll('.mobile-menu-right .item, .mobile-menu-left .item').forEach(function(item) {
   item.addEventListener('click', function(e) {
     document.querySelector('.mobile-menu-right').classList.remove('toggled');
+    document.querySelector('.mobile-menu-left').classList.remove('toggled');
   })
 });

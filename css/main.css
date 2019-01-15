@@ -487,6 +487,14 @@ footer > div:not(:first-child) {
     display: none;
   }
 
+  .mobile-menu-right {
+    display: none;
+  }
+
+  .mobile-menu-left {
+    display: none;
+  }
+
   section > h2 {
     font-size: 30px;
     padding: 20px 0;
