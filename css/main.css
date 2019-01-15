@@ -372,8 +372,65 @@ footer > div:not(:first-child) {
     font-size: 24px;
   }
 
+  .mobile-menu.left-handed {
+    flex-direction: row-reverse;
+  }
+
   .mobile-menu .item {
     padding: 10px 30px;
+  }
+
+  .mobile-menu-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 50px;
+    right: -100vw;
+    width: 100%;
+    padding: 30px 10px 10px 0;
+    background: rgba(0, 25, 50, 0.9);
+    text-transform: uppercase;
+    transition: right 0.25s ease;
+  }
+
+  .mobile-menu-right.toggled {
+    right: 0;
+  }
+
+  .mobile-menu-right .item {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-menu-right a {
+    color: white;
+  }
+
+  .mobile-menu-left {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 50px;
+    left: -100vw;
+    width: 100%;
+    padding: 30px 0 10px 10px;
+    background: rgba(0, 25, 50, 0.9);
+    text-transform: uppercase;
+    transition: left 0.25s ease;
+  }
+
+  .mobile-menu-left.toggled {
+    left: 0;
+  }
+
+  .mobile-menu-left .item {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-menu-left a {
+    color: white;
   }
 
   .introduction .presentation {
