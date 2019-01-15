@@ -43,33 +43,6 @@ header a {
   color: white;
 }
 
-header.expanded {
-  height: 250px;
-  transition: 0.5s height;
-}
-
-header.expanded .logo-container {
-  border-color: #797979;
-}
-
-header:not(.expanded) .list-header {
-  display: none;
-}
-
-#toggle {
-  display: block;
-  height: 30px;
-  width: 30px;
-}
-
-#toggle > div {
-  width: 35px;
-  height: 5px;
-  border-radius: 5px;
-  background-color: #fff;
-  margin: 6px 0;
-}
-
 .list-header{
   display: flex;
   flex-direction: column;
