@@ -18,16 +18,18 @@ a:hover{
 }
 
 b {
-  color: #337ab7;
+  color: rgb(0, 50, 100);
 }
 
 section {
-  padding: 25px;
+  padding: 100px 200px;
 }
 
 section > h2 {
-  font-size: 24px;
-  padding: 20px;
+  font-size: 40px;
+  padding-bottom: 75px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 header {
@@ -128,39 +130,114 @@ header a {
   text-align: center;
 }
 
+#about h2 {
+  color: #ffcd05;
+}
+
 .list-about{
   display: flex;
-  flex-direction: column;
   list-style: none;
 }
 
 .about-items{
-  padding: 20px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.about-items p {
+  text-align: justify;
 }
 
 .title-items{
   padding-bottom: 16px;
+  text-align: left;
+  font-size: 20px;
 }
 
-#schedule {
+.title-items span {
+  color: #ffcd05;
+  font-size: 26px;
+}
+
+.schedule {
+  padding: 100px 200px;
+  color: black;
+  background-color: white;
+  font-size: 18px;
+}
+
+.schedule h2 {
+  color: rgb(0, 50, 100);
+}
+
+.schedule .days {
+  display: flex;
+  padding: 20px;
+  border: 1px solid rgb(0, 50, 100);
   text-align: center;
-  color: #111;
-  margin: 0 auto;
-  background-color: #eeeeee;
-  margin: 0 auto;
 }
 
-#schedule > ul {
-  padding: 0 30px 30px 30px;
+.schedule .days span {
+  flex-basis: 22%;
 }
 
-.schedule-item{
-  display: block;
-  padding: 15px;
-  margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  font-size: 14px;
+.schedule .days .time {
+  flex-basis: 12%;
+}
+
+.schedule .hour {
+  display: flex;
+  text-align: center;
+  border: 1px solid rgb(0, 50, 100);
+  border-top: none;
+}
+
+.schedule .hour span {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 22%;
+}
+
+.schedule .hour .time {
+  padding: 20px;
+  flex-basis: 12%;
+}
+
+.hour .time.nine-thirty {
+  padding-bottom: 200px;
+}
+
+.schedule .hour .first-day {
+  justify-content: flex-end;
+}
+
+.schedule .hour .slot {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.schedule .hour .welcome {
+  flex-basis: 15%;
+  border-bottom: 1px solid rgb(0, 50, 100);
+}
+
+.schedule .hour .lightnings {
+  flex-basis: 25%;
+}
+
+.schedule .hour .proposing-talks {
+  flex-basis: 20%;
+  border-bottom: 1px solid rgb(0, 50, 100);
+}
+
+.schedule .hour .open-space {
+  flex-basis: 80%;
+}
+
+.schedule .hour .lunch {
+  flex-basis: 20%;
+  border-bottom: 1px solid rgb(0, 50, 100);
 }
 
 .photo{
@@ -465,15 +542,6 @@ footer > div:not(:first-child) {
   }
 
   .mobile-menu-left {
-    display: none;
-  }
-
-  section > h2 {
-    font-size: 30px;
-    padding: 20px 0;
-  }
-
-  #toggle {
     display: none;
   }
 

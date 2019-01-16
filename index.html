@@ -57,32 +57,34 @@
     </head>
     <body>
       <header>
-          <ul class="list-header">
-            <li class="items-header"><a href="#about">About</a></li>
-            <li class="items-header"><a href="#schedule">Schedule</a></li>
-            <li class="items-header"><a href="#venue">Venue</a></li>
-            <li class="items-header"><a href="#coc">Code of Conduct</a></li>
-            <li class="items-header"><a href="#contact">Contact us</a></li>
-          </ul>
-        </header>
-        <div class="mobile-menu">
-            <div id="switch-icons" class="item"><i class="fas fa-exchange-alt"></i></div>
-            <div id="toggle-menu" class="item"><i class="fas fa-bars"></i></div>
-        </div>
-        <div class="mobile-menu-left">
-            <div class="item"><a href="#about">About</a></div>
-            <div class="item"><a href="#schedule">Schedule</a></div>
-            <div class="item"><a href="#venue">Venue</a></div>
-            <div class="item"><a href="#coc">Code of Conduct</a></div>
-            <div class="item"><a href="#contact">Contact us</a></div>
-        </div>
-        <div class="mobile-menu-right">
-            <div class="item"><a href="#about">About</a></div>
-            <div class="item"><a href="#schedule">Schedule</a></div>
-            <div class="item"><a href="#venue">Venue</a></div>
-            <div class="item"><a href="#coc">Code of Conduct</a></div>
-            <div class="item"><a href="#contact">Contact us</a></div>
-        </div>
+        <ul class="list-header">
+          <li class="items-header"><a href="#about">About</a></li>
+          <li class="items-header"><a href="#schedule">Schedule</a></li>
+          <li class="items-header"><a href="#venue">Venue</a></li>
+          <li class="items-header"><a href="#coc">Code of Conduct</a></li>
+          <li class="items-header"><a href="#contact">Contact us</a></li>
+        </ul>
+      </header>
+
+      <div class="mobile-menu">
+          <div id="switch-icons" class="item"><i class="fas fa-exchange-alt"></i></div>
+          <div id="toggle-menu" class="item"><i class="fas fa-bars"></i></div>
+      </div>
+      <div class="mobile-menu-left">
+          <div class="item"><a href="#about">About</a></div>
+          <div class="item"><a href="#schedule">Schedule</a></div>
+          <div class="item"><a href="#venue">Venue</a></div>
+          <div class="item"><a href="#coc">Code of Conduct</a></div>
+          <div class="item"><a href="#contact">Contact us</a></div>
+      </div>
+      <div class="mobile-menu-right">
+          <div class="item"><a href="#about">About</a></div>
+          <div class="item"><a href="#schedule">Schedule</a></div>
+          <div class="item"><a href="#venue">Venue</a></div>
+          <div class="item"><a href="#coc">Code of Conduct</a></div>
+          <div class="item"><a href="#contact">Contact us</a></div>
+      </div>
+
       <div class="introduction">
         <div class="opacity-layer">
           <div class="presentation">
@@ -102,11 +104,46 @@
           </div>
         </div>
       </div>
+
+      <section class="schedule">
+        <h2>Schedule</h2>
+        <div class="days">
+          <span class="time"></span>
+          <span><b>Thursday 25th</b></span>
+          <span><b>Friday 26th</b></span>
+          <span><b>Saturday 27th</b></span>
+          <span><b>Sunday 28th</b></span>
+        </div>
+        <div class="hour">
+          <span class="time nine-thirty">9:30</span>
+          <span class="first-day">
+            <span class="slot welcome">16:30 Welcome!</span>
+            <span class="slot lightnings">Lightning talks</span>
+          </span>
+          <span>
+            <span class="slot proposing-talks">Proposing Talks</span>
+            <span class="slot open-space"><p>Open Space</p><p>+ 2h lunch</p></span>
+          </span>
+          <span>
+              <span class="slot proposing-talks">Proposing Talks</span>
+              <span class="slot open-space"><p>Open Space</p><p>+ 2h lunch</p><p>+ retrospective</p></span>
+          </span>
+          <span class="slot"><p>Free</p><p>Have a safe trip back and see you in the next edition!</p></span>
+        </div>
+        <div class="hour">
+            <span class="time">18:30</span>
+            <span class="slot">Dinner in the hotel</span>
+            <span class="slot">Dinner out!</span>
+            <span class="slot">Dinner in the hotel</span>
+            <span></span>
+        </div>
+      </section>
+    
     <section id="about">
       <h2>WHAT IS SOCRATES?</h2>
       <ul class="list-about">
         <li class="about-items">
-          <h3 class="title-items">IT'S ABOUT PEOPLE</h3>
+          <h3 class="title-items">IT'S ABOUT <span>PEOPLE</span></h3>
           <p>
             There is no agenda and there are no speakers before the event starts.
             Proposals are presented during the event itself in the mornings, and voted by the participants right after. It’s a great opportunity to speak to and code with many like-minded and talented developers in an incredible
@@ -114,44 +151,15 @@
           </p>
         </li>
         <li class="about-items">
-          <h3 class="title-items">IT'S ABOUT ACTION</h3>
+          <h3 class="title-items">IT'S ABOUT <span>ACTION</span></h3>
           <p>
             The retreat itself is free. The only thing you pay for is the hotel, meals and meeting rooms. We will be there for 48 hours to collaborate and share ideas. There will be hands-on coding sessions, sessions focused on discussion, interactive talks and lots more.
           </p>
         </li>
         <li class="about-items">
-          <h3 class="title-items">IT'S ABOUT FUN</h3>
+          <h3 class="title-items">IT'S ABOUT <span>FUN</span></h3>
           <p>
             We will not only spend the days together but also the nights. And – believe it or not – programmers are a great company! There will be lots of opportunities to spend your time. Starting with simple chilling over hiking and biking, playing games, hanging around, talking, laughing…
-          </p>
-        </li>
-      </ul>
-    </section>
-    <section id="schedule">
-      <h2>SCHEDULE</h2>
-      <ul>
-        <li class="schedule-item">
-          <p>
-            <b>Thursday 25th:</b>
-            Welcome meeting between 16:30 and 17:00. Ligthning talks from 17:00 to 18:30. Dinner from 18:30 to 21:00
-          </p>
-        </li>
-        <li class="schedule-item">
-          <p>
-            <b>Friday 26th:</b>
-            Talks, workshops and discussions from 9:30 to 18:30 with a 2 hour lunch break. Dinner from 18:30 to 21:00.
-          </p>
-        </li>
-        <li class="schedule-item">
-          <p>
-            <b>Saturday 27th:</b>
-            Talks, workshops and discussions from 9:30 to 18:30 with a 2 hour lunch break. Dinner from 18:30 to 21:00.
-          </p>
-        </li>
-        <li class="schedule-item">
-          <p>
-            <b>Sunday 28th:</b>
-            Nothing scheduled, free time to share with your colleages.
           </p>
         </li>
       </ul>
