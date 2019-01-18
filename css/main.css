@@ -218,7 +218,7 @@ header a {
 
 .schedule .hour .welcome {
   flex-basis: 15%;
-  border-bottom: 1px solid rgb(0, 50, 100);
+  border-bottom: 1px solid rgba(0, 50, 100, 0.5);
 }
 
 .schedule .hour .lightnings {
@@ -227,7 +227,7 @@ header a {
 
 .schedule .hour .proposing-talks {
   flex-basis: 20%;
-  border-bottom: 1px solid rgb(0, 50, 100);
+  border-bottom: 1px solid rgba(0, 50, 100, 0.5);
 }
 
 .schedule .hour .open-space {
@@ -236,7 +236,7 @@ header a {
 
 .schedule .hour .lunch {
   flex-basis: 20%;
-  border-bottom: 1px solid rgb(0, 50, 100);
+  border-bottom: 1px solid rgba(0, 50, 100, 0.5);
 }
 
 .photo{
