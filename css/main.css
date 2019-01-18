@@ -368,6 +368,14 @@ footer > div:not(:first-child) {
   padding-top: 12px;
 }
 
+@media all and (max-width: 1440px) {
+
+  section {
+    padding: 80px 50px;
+  }
+
+}
+
 @media all and (max-width: 1200px) {
 
   section {
@@ -446,6 +454,10 @@ footer > div:not(:first-child) {
   .schedule .slots.last-day .slot {
     justify-content: center;
     text-align: center;
+  }
+
+  .list-about {
+    flex-wrap: wrap;
   }
 }
 
