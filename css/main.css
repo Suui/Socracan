@@ -239,15 +239,7 @@ header a {
   border-bottom: 1px solid rgba(0, 50, 100, 0.5);
 }
 
-.photo{
-  background-image: url(/images/foto4.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 40vh;
-}
-
-#venue {
+.venue {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
@@ -255,27 +247,24 @@ header a {
   text-align: center;
 }
 
-#venue > p {
+.venue h2 {
+  color: rgb(0, 50, 100);
+}
+
+.venue p {
   margin-bottom: 18px;
 }
 
-.images-venue{
-  width: 90%;
-  padding: 10px;
-}
-
-.images-venue-container{
+.venue .images {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
 }
 
-.tickets {
-  background-color: #222324;
-  color: #ffffff;
+.venue .images img {
+  margin: 12px;
 }
 
-.localitation-container{
+.localitation-container {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -295,6 +284,14 @@ header a {
   color: #8c8c8c;
   padding-left: 30px;
   padding-bottom: 15px;
+}
+
+.photo {
+  background-image: url(/images/foto4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
 }
 
 #coc blockquote {
@@ -654,16 +651,6 @@ footer > div:not(:first-child) {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-
-  .images-venue{
-    width: 40%;
-    height: 290px;
-  }
-
-  .images-venue-container{
-    flex-direction: row;
-    justify-content: center;
   }
 
   .localitation-container{
