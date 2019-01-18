@@ -264,7 +264,7 @@ header a {
   margin: 12px;
 }
 
-.localitation-container {
+.localization-container {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -272,15 +272,15 @@ header a {
   padding: 40px;
 }
 
-.box-localitation{
+.box-localization{
   padding-bottom: 32px;
 }
 
-.title-localitation1{
+.title-localization1{
   color: #111;
 }
 
-.title-localitation2{
+.title-localization2{
   color: #8c8c8c;
   padding-left: 30px;
   padding-bottom: 15px;
@@ -653,14 +653,14 @@ footer > div:not(:first-child) {
     align-items: center;
   }
 
-  .localitation-container{
+  .localization-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 40px;
   }
 
-  .box-localitation {
+  .box-localization {
     padding-right: 55px;
   }
 
