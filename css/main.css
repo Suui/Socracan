@@ -160,7 +160,6 @@ header a {
 }
 
 .schedule {
-  padding: 100px 200px;
   color: black;
   background-color: white;
   font-size: 18px;
@@ -371,8 +370,17 @@ footer > div:not(:first-child) {
 
 @media all and (max-width: 1200px) {
 
+  section {
+    padding: 80px 20px;
+  }
+
   .introduction .presentation {
     padding-left: 150px;
+  }
+
+  .introduction .presentation {
+    align-items: center;
+    padding: 100px 20px;
   }
     
   .introduction .presentation .event-name {
@@ -394,12 +402,50 @@ footer > div:not(:first-child) {
   .introduction .presentation .title .dates {
     font-size: 35px;
   }
-}
 
-@media all and (max-width: 1200px) {
-  .introduction .presentation {
-    align-items: center;
-    padding: 100px 20px;
+  .schedule .desktop-schedule {
+    display: none;
+  }
+
+  .schedule .mobile-schedule {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .schedule .card {
+    flex-basis: 40%;
+    margin: 20px;
+    border: 1px solid rgb(0, 50, 100);
+  }
+
+  .schedule .card .day {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 50, 100);
+  }
+
+  .schedule .slots {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .schedule .slots .slot {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0 18px 0;
+    border-bottom: 1px solid rgba(0, 50, 100, 0.2);
+  }
+
+  .schedule .slots .slot:last-of-type {
+    padding-bottom: 7px;
+    border-bottom: none;
+  }
+
+  .schedule .slots.last-day .slot {
+    justify-content: center;
+    text-align: center;
   }
 }
 
@@ -407,6 +453,14 @@ footer > div:not(:first-child) {
 
   header {
     display: none;
+  }
+  
+  section {
+    padding: 60px 10px;
+  }
+
+  section h2 {
+    padding-bottom: 50px;
   }
 
   .mobile-menu {
@@ -516,6 +570,22 @@ footer > div:not(:first-child) {
   .introduction .presentation .title .dates {
     font-size: 20px;
   }
+
+  .schedule .card {
+    flex-basis: 100%;
+  }
+
+  .about-items {
+    padding: 25px 20px;
+  }
+
+  .about-items .title-items {
+    text-align: center;
+  }
+
+  .list-about {
+    flex-wrap: wrap;
+  }
 }
 
 @media all and (min-width: 768px) {
@@ -613,5 +683,12 @@ footer > div:not(:first-child) {
 
   #contact{
     padding-top: 0px;
+  }
+}
+
+@media all and (min-width: 1201px) {
+
+  .mobile-schedule {
+    display: none;
   }
 }

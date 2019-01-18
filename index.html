@@ -58,8 +58,8 @@
     <body>
       <header>
         <ul class="list-header">
-          <li class="items-header"><a href="#about">About</a></li>
           <li class="items-header"><a href="#schedule">Schedule</a></li>
+          <li class="items-header"><a href="#about">About</a></li>
           <li class="items-header"><a href="#venue">Venue</a></li>
           <li class="items-header"><a href="#coc">Code of Conduct</a></li>
           <li class="items-header"><a href="#contact">Contact us</a></li>
@@ -71,18 +71,18 @@
           <div id="toggle-menu" class="item"><i class="fas fa-bars"></i></div>
       </div>
       <div class="mobile-menu-left">
-          <div class="item"><a href="#about">About</a></div>
-          <div class="item"><a href="#schedule">Schedule</a></div>
-          <div class="item"><a href="#venue">Venue</a></div>
-          <div class="item"><a href="#coc">Code of Conduct</a></div>
-          <div class="item"><a href="#contact">Contact us</a></div>
+        <div class="item"><a href="#schedule">Schedule</a></div>
+        <div class="item"><a href="#about">About</a></div>
+        <div class="item"><a href="#venue">Venue</a></div>
+        <div class="item"><a href="#coc">Code of Conduct</a></div>
+        <div class="item"><a href="#contact">Contact us</a></div>
       </div>
       <div class="mobile-menu-right">
-          <div class="item"><a href="#about">About</a></div>
-          <div class="item"><a href="#schedule">Schedule</a></div>
-          <div class="item"><a href="#venue">Venue</a></div>
-          <div class="item"><a href="#coc">Code of Conduct</a></div>
-          <div class="item"><a href="#contact">Contact us</a></div>
+        <div class="item"><a href="#schedule">Schedule</a></div>
+        <div class="item"><a href="#about">About</a></div>
+        <div class="item"><a href="#venue">Venue</a></div>
+        <div class="item"><a href="#coc">Code of Conduct</a></div>
+        <div class="item"><a href="#contact">Contact us</a></div>
       </div>
 
       <div class="introduction">
@@ -105,37 +105,103 @@
         </div>
       </div>
 
-      <section class="schedule">
+      <section id="schedule" class="schedule">
         <h2>Schedule</h2>
-        <div class="days">
-          <span class="time"></span>
-          <span><b>Thursday 25th</b></span>
-          <span><b>Friday 26th</b></span>
-          <span><b>Saturday 27th</b></span>
-          <span><b>Sunday 28th</b></span>
-        </div>
-        <div class="hour">
-          <span class="time nine-thirty">9:30</span>
-          <span class="first-day">
-            <span class="slot welcome">16:30 Welcome!</span>
-            <span class="slot lightnings">Lightning talks</span>
-          </span>
-          <span>
-            <span class="slot proposing-talks">Proposing Talks</span>
-            <span class="slot open-space"><p>Open Space</p><p>+ 2h lunch</p></span>
-          </span>
-          <span>
+        <div class="desktop-schedule">
+          <div class="days">
+            <span class="time"></span>
+            <span><b>Thursday 25th</b></span>
+            <span><b>Friday 26th</b></span>
+            <span><b>Saturday 27th</b></span>
+            <span><b>Sunday 28th</b></span>
+          </div>
+          <div class="hour">
+            <span class="time nine-thirty">9:30</span>
+            <span class="first-day">
+              <span class="slot welcome">16:30 Welcome!</span>
+              <span class="slot lightnings">Lightning talks</span>
+            </span>
+            <span>
               <span class="slot proposing-talks">Proposing Talks</span>
-              <span class="slot open-space"><p>Open Space</p><p>+ 2h lunch</p><p>+ retrospective</p></span>
-          </span>
-          <span class="slot"><p>Free</p><p>Have a safe trip back and see you in the next edition!</p></span>
+              <span class="slot open-space"><p>Open Space</p><p>+ 2h lunch</p></span>
+            </span>
+            <span>
+                <span class="slot proposing-talks">Proposing Talks</span>
+                <span class="slot open-space"><p>Open Space</p><p>+ 2h lunch</p><p>+ retrospective</p></span>
+            </span>
+            <span class="slot"><p>Free</p><p>Have a safe trip back and see you in the next edition!</p></span>
+          </div>
+          <div class="hour">
+              <span class="time">18:30</span>
+              <span class="slot">Dinner in the hotel</span>
+              <span class="slot">Dinner out!</span>
+              <span class="slot">Dinner in the hotel</span>
+              <span></span>
+          </div>
         </div>
-        <div class="hour">
-            <span class="time">18:30</span>
-            <span class="slot">Dinner in the hotel</span>
-            <span class="slot">Dinner out!</span>
-            <span class="slot">Dinner in the hotel</span>
-            <span></span>
+        <div class="mobile-schedule">
+          <div class="card">
+            <div class="day">Thursday 25th</div>
+            <div class="slots">
+              <div class="slot">
+                <span>16:30</span>
+                <span>Welcome!</span>
+              </div>
+              <div class="slot">
+                <span>17:00</span>
+                <span>Lightning Talks</span>
+              </div>
+              <div class="slot">
+                <span>18:30</span>
+                <span>Dinner in the hotel</span>
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="day">Friday 26th</div>
+            <div class="slots">
+              <div class="slot">
+                <span>9:30</span>
+                <span>Proposing Talks</span>
+              </div>
+              <div class="slot">
+                <span>10:30</span>
+                <span>Open Space + 2h lunch</span>
+              </div>
+              <div class="slot">
+                <span>18:30</span>
+                <span>Dinner out!</span>
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="day">Saturday 27th</div>
+            <div class="slots">
+                <div class="slot">
+                  <span>9:30</span>
+                  <span>Proposing Talks</span>
+                </div>
+                <div class="slot">
+                  <span>10:30</span>
+                  <span>Open Space + 2h lunch</span>
+                </div>
+                <div class="slot">
+                  <span>18:30</span>
+                  <span>Dinner out!</span>
+                </div>
+              </div>
+          </div>
+        <div class="card">
+            <div class="day">Sunday 28th</div>
+            <div class="slots last-day">
+              <div class="slot">
+                <span>Free</span>
+              </div>
+              <div class="slot">
+                <span>Have a safe trip back and see you in the next edition!</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     
